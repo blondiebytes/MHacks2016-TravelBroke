@@ -61,7 +61,7 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <div class="col-sm-offset-2 col-sm-9">
+                            <div class="col-sm-12 text-center padding-top-for-buttom">
                                 <button type="submit" class="btn btn-default" id="submit-button">Let's go on an adventure!</button>
                             </div>
                         </div>
@@ -73,4 +73,6 @@
     </div>
 
     </body>
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="js/javascript.js"></script>
 </html>

@@ -1,6 +1,7 @@
 #bg {
-    background: url('/mhacks2016/images/background copy 2.jpeg');
-    height: 750px;
+    background: url('/mhacks2016/images/background4.jpeg');
+    min-height: 100vh;
+    background-size: cover;
 }
 
 #pd50 {
@@ -13,12 +14,38 @@
 
 #main-title {
     color: #B0C4DE;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color:#0B515E;
 }
 
 #welcome {
-    background-color:rgba(236, 238, 255, 0.40) !important;
+    /*background-color:rgba(236, 238, 255, 0.40) !important;*/
+    background:transparent;
+    color:#0B515E;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+.containerA{
+    width:80%;
+    max-width: 800px;
+    margin:auto;
+}
+.skewed{
+    background-color: #3F7381;
+    transform: skewX(10deg);
+}
+.skewed input{
+    -webkit-appearance: none;
+    border: 0;
+    /* background: #3F7381; */
+    background: transparent;
+    color: #FFF;
+    border-radius: 0;
+    -webkit-transform: skewX(-10deg);
 }
 
-
-
+.form-control::-webkit-input-placeholder {
+    color: #DCDCDC;
+    opacity: 1;
+}

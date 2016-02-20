@@ -1,0 +1,24 @@
+#bg {
+    background: url('/mhacks2016/images/background copy 2.jpeg');
+    height: 750px;
+}
+
+#pd50 {
+    padding-bottom: 50px;
+}
+
+#submit-button {
+
+}
+
+#main-title {
+    color: #B0C4DE;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#welcome {
+    background-color:rgba(236, 238, 255, 0.40) !important;
+}
+
+
+

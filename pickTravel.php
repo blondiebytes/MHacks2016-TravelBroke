@@ -32,62 +32,95 @@
         </div>
     </section>
     <section>
-        <div class="container" id="places-container">
-            <div class="row places-row">
-                <div class="col-xs-12 col-md-4">
+        <div class="container text-center" id="places-container">
+            <div class="row text-center places-row">
+                <!-- Col 1 -->
+                <div class="col-xs-12 col-md-3 put-space-right">
                     <div class="row place-row">
                         <div class = "row destination">
                             <!-- Name of Destination-->
-                            <p>Destination</p>
+                            <p>New York City</p>
                         </div>
                         <div class = "row image">
                             <!--Image of Destination-->
                             <img src="images/newyork.jpeg" height="100%", width="100%">
                         </div>
-                        <div class = "row">
-                            <!--Times-->
-                            <div class="row">
-                                <div class="col">
-                                    <!--Start Day-->
-                                    <div class="row">
+                        <div class = "row text-center">
+                                <div class="col-xs-12 col-md-6 destination">
+                                    <p>March 26th</p>
+                                    <p>Delta</p>
 
-                                    </div>
-                                    <!--Start Time-->
-                                    <div class="row">
-
-                                    </div>
                                 </div>
-                                <div class="col">
-                                    <!--End Day-->
-                                    <div class="row">
-
-                                    </div>
-                                    <!--End Time-->
-                                    <div class="row">
-                                    </div>
+                                <div class="col-xs-12 col-md-6 destination">
+                                    <p>March 28th</p>
+                                    <p>$796</p>
                                 </div>
-
-                            </div>
-                            <!--Cost-->
-                            <div class="row">
-                                <div class="col">
-                                    <div class="row">
-                                        <!-- Total Amount" -->
-                                        <p>$796</p>
-                                    </div>
-                                    <div class="row">
-                                        <!-- Per person-->
-                                        <p>(per person)</p>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
-                        <div class="row">
+                        <div class="row text-center select-button">
                             <!--Select choice button-->
                                 <button type="submit" class="btn btn-default" id="submit-button">Choose Me!</button>
                         </div>
                     </div>
                 </div>
+                    <!-- Col 2 -->
+                <div class="col-xs-12 col-md-3">
+                    <div class="row place-row">
+                        <div class = "row destination">
+                            <!-- Name of Destination-->
+                            <p>New York City</p>
+                        </div>
+                        <div class = "row image">
+                            <!--Image of Destination-->
+                            <img src="images/newyork.jpeg" height="100%", width="100%">
+                        </div>
+                        <div class = "row text-center">
+                            <div class="col-xs-12 col-md-6 destination">
+                                <p>March 26th</p>
+                                <p>Delta</p>
+
+                            </div>
+                            <div class="col-xs-12 col-md-6 destination">
+                                <p>March 28th</p>
+                                <p>$796</p>
+                            </div>
+                        </div>
+                        <div class="row text-center select-button">
+                            <!--Select choice button-->
+                            <button type="submit" class="btn btn-default" id="submit-button">Choose Me!</button>
+                        </div>
+                    </div>
+                </div>
+                    <!-- Row 3 -->
+                <div class="col-xs-12 col-md-3 put-space-left">
+                    <div class="row place-row">
+                        <div class = "row destination">
+                            <!-- Name of Destination-->
+                            <p>New York City</p>
+                        </div>
+                        <div class = "row image">
+                            <!--Image of Destination-->
+                            <img src="images/newyork.jpeg" height="100%", width="100%">
+                        </div>
+                        <div class = "row text-center">
+                            <div class="col-xs-12 col-md-6 destination">
+                                <p>March 26th</p>
+                                <p>Delta</p>
+
+                            </div>
+                            <div class="col-xs-12 col-md-6 destination">
+                                <p>March 28th</p>
+                                <p>$796</p>
+                            </div>
+                        </div>
+                        <div class="row text-center select-button">
+                            <!--Select choice button-->
+                            <button type="submit" class="btn btn-default" id="submit-button">Choose Me!</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
 
 
             </div>

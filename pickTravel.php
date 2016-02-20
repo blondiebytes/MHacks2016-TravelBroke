@@ -35,23 +35,51 @@
         <div class="container" id="places-container">
             <div class="row places-row">
                 <div class="col-xs-12 col-md-4">
-                    <div class="row">
+                    <div class="row place-row">
                         <div class = "row destination">
                             <!-- Name of Destination-->
                             <p>Destination</p>
                         </div>
                         <div class = "row image">
                             <!--Image of Destination-->
-                            <img src="images/newyork.jpeg" height="100%", width="50%">
+                            <img src="images/newyork.jpeg" height="100%", width="100%">
                         </div>
                         <div class = "row">
                             <!--Times-->
                             <div class="row">
+                                <div class="col">
+                                    <!--Start Day-->
+                                    <div class="row">
+
+                                    </div>
+                                    <!--Start Time-->
+                                    <div class="row">
+
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <!--End Day-->
+                                    <div class="row">
+
+                                    </div>
+                                    <!--End Time-->
+                                    <div class="row">
+                                    </div>
+                                </div>
 
                             </div>
                             <!--Cost-->
                             <div class="row">
-
+                                <div class="col">
+                                    <div class="row">
+                                        <!-- Total Amount" -->
+                                        <p>$796</p>
+                                    </div>
+                                    <div class="row">
+                                        <!-- Per person-->
+                                        <p>(per person)</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="row">

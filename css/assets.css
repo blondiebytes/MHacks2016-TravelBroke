@@ -87,17 +87,18 @@
     opacity: 1;
 }
 
-/*.form-group.row:before {*/
-    /*background: url('images/transport.png');*/
-    /*display: block;*/
-    /*position: absolute;*/
-    /*width: 22px;*/
-    /*height: 22px;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: contain;*/
-    /*content: "";*/
-    /*left: -20px;*/
-/*}*/
+.form-group.row:before {
+    background: url("/mhacks2016/images/transport.png");
+    display: block;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    left: -20px;
+}
+
 
 .col-sm-9.skewed:before {
     background-color: #3F7381;
@@ -133,5 +134,25 @@
     -ms-transition:0.3s ease all;
     -ms-transition-delay:0.2s;
 
+}
+
+.destination {
+    color:white;
+    background-color:#033038;
+    border-radius: 0px;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    outline:none;
+}
+
+.places-row {
+    padding-top: 25px;
+}
+
+.place-row {
+    background-color:rgba(100,100, 100, 0.3)
 }
 

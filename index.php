@@ -16,6 +16,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/assets.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
         <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'  type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
@@ -49,7 +50,7 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="control-label col-sm-3" for="budget">How much $$?</label>
+                            <label class="control-label col-sm-3" for="budget">What's your budget?</label>
                             <div class="col-sm-9 skewed">
                                 <input type="text" class="form-control" id="budget" placeholder="Enter your budget">
                             </div>

@@ -40,8 +40,8 @@
 
 
 
-#main-title {
-    color: #B0C4DE;
+#main-title h1 {
+    font-size:70px;
     font-family: 'Indie Flower', cursive;
     text-align: center;
     color:#0B515E;

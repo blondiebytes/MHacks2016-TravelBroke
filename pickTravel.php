@@ -49,12 +49,12 @@
                         </div>
                         <div class = "row text-center">
                             <div class="col-xs-12 col-md-6 destination">
-                                <p>March 26th</p>
+                                <p>March 14th</p>
                                 <p>Delta</p>
 
                             </div>
                             <div class="col-xs-12 col-md-6 destination">
-                                <p>March 28th</p>
+                                <p>March 18th</p>
                                 <p>$796</p>
                             </div>
                         </div>
@@ -77,13 +77,13 @@
                         </div>
                         <div class = "row text-center">
                             <div class="col-xs-12 col-md-6 destination">
-                                <p>March 26th</p>
+                                <p>March 3rd</p>
                                 <p>Delta</p>
 
                             </div>
                             <div class="col-xs-12 col-md-6 destination">
-                                <p>March 28th</p>
-                                <p>$796</p>
+                                <p>March 5th</p>
+                                <p>$730</p>
                             </div>
                         </div>
                         <div class="row text-center select-button">
@@ -110,8 +110,8 @@
 
                             </div>
                             <div class="col-xs-12 col-md-6 destination">
-                                <p>March 28th</p>
-                                <p>$796</p>
+                                <p>March 30th</p>
+                                <p>$600</p>
                             </div>
                         </div>
                         <div class="row text-center select-button">

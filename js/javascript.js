@@ -9,4 +9,9 @@ $(document).ready(function(){
     $(".skewed input").blur(function(){
         $(".skewed").removeClass("active");
     });
+
+    //$("#main-title").onclick(function(e){
+    //    e.prevent_default();
+    //
+    //});
 });

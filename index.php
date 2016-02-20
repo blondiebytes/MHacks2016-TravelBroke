@@ -21,6 +21,7 @@
         <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.js"></script>
         <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
     </head>
 
@@ -65,7 +66,7 @@
                         <div class="form-group row">
                             <div class="col-sm-12 text-center padding-top-for-buttom">
                                 <form action="http://localhost:8888/mhacks2016/pickTravel.php">
-                                    <button type="submit" class="btn btn-default" id="submit-button">Let's go on an adventure!</button>
+                                    <button type="submit" class="btn btn-default submit-button">Let's go on an adventure!</button>
                                 </form>
 
                             </div>

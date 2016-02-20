@@ -43,21 +43,15 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="control-label col-sm-3" for="num">Who's going?</label>
+                            <label class="control-label col-sm-3" for="budget">How much $$?</label>
                             <div class="col-sm-9 skewed">
-                                <input type="text" class="form-control" id="num" placeholder="Enter number of people">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="control-label col-sm-3" for="budget">How much $$ ?</label>
-                            <div class="col-sm-9 skewed">
-                                <input type="text" class="form-control" id="budget" placeholder="Enter the budget per person">
+                                <input type="text" class="form-control" id="budget" placeholder="Enter your budget">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label class="control-label col-sm-3" for="date">When are we going?</label>
                             <div class="col-sm-9 skewed">
-                                <input type="text" class="form-control" id="date" placeholder="Enter the start date and the end date (i.e. 12.01.15 - 12.11.15)">
+                                <input type="text" class="form-control" id="date" placeholder="Enter a month and year (i.e. April 2016)">
                             </div>
                         </div>
                         <div class="form-group row">

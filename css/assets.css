@@ -147,7 +147,31 @@
     text-transform: uppercase;
     padding: 10px 10px;
     outline:none;
+}
 
+.details {
+    text-align: center;
+    color:#033038;
+    border-radius: 0px;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    outline:none;
+
+}
+
+.details2 {
+    text-align: center;
+    color:#033038;
+    border-radius: 0px;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    outline:none;
 }
 
 .places-row {

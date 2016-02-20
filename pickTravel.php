@@ -26,11 +26,13 @@
     <section id="pd50">
 
     </section>
+
     <section>
         <div class = "text-lg-center" id="main-title">
             <h1>Travel Broke</h1>
         </div>
     </section>
+
     <section>
         <div class="container text-center" id="places-container">
             <div class="row text-center places-row">
@@ -46,19 +48,19 @@
                             <img src="images/newyork.jpeg" height="100%", width="100%">
                         </div>
                         <div class = "row text-center">
-                                <div class="col-xs-12 col-md-6 destination">
-                                    <p>March 26th</p>
-                                    <p>Delta</p>
+                            <div class="col-xs-12 col-md-6 destination">
+                                <p>March 26th</p>
+                                <p>Delta</p>
 
-                                </div>
-                                <div class="col-xs-12 col-md-6 destination">
-                                    <p>March 28th</p>
-                                    <p>$796</p>
-                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-6 destination">
+                                <p>March 28th</p>
+                                <p>$796</p>
+                            </div>
                         </div>
                         <div class="row text-center select-button">
                             <!--Select choice button-->
-                                <button type="submit" class="btn btn-default" id="submit-button">Choose Me!</button>
+                            <button type="submit" class="btn btn-default" id="submit-button">Choose Me!</button>
                         </div>
                     </div>
                 </div>
@@ -118,12 +120,13 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
-
             </div>
+        </div>
+    </section>
+
+    <section>
+        <div class = "text-center select-button" id="main-title">
+            <button type="submit" class="btn btn-default" id="submit-button">Text when cheap flights are available!</button>
         </div>
     </section>
 
@@ -132,4 +135,5 @@
 </body>
 <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script src="js/javascript.js"></script>
+
 </html>

@@ -41,7 +41,7 @@
                     <div class="row place-row">
                         <div class = "row destination">
                             <!-- Name of Destination-->
-                            <p>New York City</p>
+                            <p>Chicago</p>
                         </div>
                         <div class = "row image">
                             <!--Image of Destination-->
@@ -73,7 +73,7 @@
                         </div>
                         <div class = "row image">
                             <!--Image of Destination-->
-                            <img src="images/newyork.jpeg" height="100%", width="100%">
+                            <img src="images/newyork2.jpeg" height="100%", width="100%">
                         </div>
                         <div class = "row text-center">
                             <div class="col-xs-12 col-md-6 destination">
@@ -94,14 +94,14 @@
                 </div>
                     <!-- Row 3 -->
                 <div class="col-xs-12 col-md-3 put-space-left">
-                    <div class="row place-row">
+                    <div class="row place-row ">
                         <div class = "row destination">
                             <!-- Name of Destination-->
-                            <p>New York City</p>
+                            <p>Austin</p>
                         </div>
                         <div class = "row image">
                             <!--Image of Destination-->
-                            <img src="images/newyork.jpeg" height="100%", width="100%">
+                            <img src="images/photo.jpeg" height="100%", width="100%">
                         </div>
                         <div class = "row text-center">
                             <div class="col-xs-12 col-md-6 destination">

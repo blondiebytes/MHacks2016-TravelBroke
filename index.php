@@ -20,8 +20,14 @@
         <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
         <script src="js/bootstrap.min.js"></script>
+        <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
     </head>
+
     <body>
+        <script>
+            var myDataRef = new Firebase('https://incandescent-fire-1314.firebaseio.com/');
+
+        </script>
 
     <div class="container-fluid" id="bg">
         <section id="pd50">
@@ -54,12 +60,17 @@
                                 <input type="text" class="form-control" id="date" placeholder="Enter a month and year (i.e. April 2016)">
                             </div>
                         </div>
+                        </form>
                         <div class="form-group row">
                             <div class="col-sm-12 text-center padding-top-for-buttom">
-                                <button type="submit" class="btn btn-default" id="submit-button">Let's go on an adventure!</button>
+                                <form action="http://localhost:8888/mhacks2016/pickTravel.php">
+                                    <button type="submit" class="btn btn-default" id="submit-button">Let's go on an adventure!</button>
+                                </form>
+
                             </div>
                         </div>
-                    </form>
+
+
                 </div>
             </div>
         </section>

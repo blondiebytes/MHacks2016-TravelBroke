@@ -77,7 +77,7 @@ for trip in flights:
 		message = str(x+1) + ". You can travel to " + dest + " (" + dept + " to " + ret + ") for " + "$" + trip + " through " + flights[trip][4] + ". Book now at: " + requests.get(req_link).text
 		#send message to user from twilio number 
 		#TODO: dont hardcode number
-		t_api.messages.create(to="+17733075720", from_="+15627418823", body=message)
+		#t_api.messages.create(to="+17733075720", from_="+15627418823", body=message)
 		#print message for testing purposes
 		print message
 		x += 1
@@ -103,10 +103,10 @@ def hotel_reply():
 			#addr = results_json[x].get('address').get('line1')
 			price = results_json[x].get('total_price').get('amount')
 			phone = results_json[x].get('contacts')[0].get('detail') #this assumes phone number is always first element of contacts
-			message += name + ", " + ", $" + price + ", " + phone + ". "
-		print message
+			message += name + ", $" + price + ", " + phone + ". "
 		resp = twilio.twiml.Response()
 		resp.message(message)
+		return message
 
 if __name__ == "__main__":
 	app.run(debug=True)

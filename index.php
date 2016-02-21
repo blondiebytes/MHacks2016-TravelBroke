@@ -27,7 +27,7 @@
                         <label class="control-label col-sm-3" for="date">When are we going?</label>
                         <div class="col-sm-9 skewed">
                             <input type="text" class="form-control" id="date"
-                                   placeholder="Enter a month you want to travel (i.e. April)">
+                                   placeholder="Enter the number of the month you want to travel (i.e. 04)">
                         </div>
                     </div>
                 </form>

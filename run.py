@@ -3,6 +3,9 @@ import ast
 import json
 import collections
 
+#to get environment variables
+import os
+
 #for flights 
 from amadeus import Flights
 
@@ -110,6 +113,7 @@ def hotel_reply():
 		return message
 
 if __name__ == "__main__":
-	app.run(debug=True)
+	port = int(os.environ.get("PORT", 5000))
+	app.run(debug=True, host='0.0.0.0', port=port)
 
 #TODO: error checking --> if there aren't enough flights, if user doesnt reply with a valid response

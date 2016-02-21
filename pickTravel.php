@@ -107,7 +107,7 @@
 <section id="section3"> <!-- Large modal -->
     <div class="text-center">
         <button type="button" class="btn btn-default submit-button select-button" data-toggle="modal"
-                data-target=".bs-example-modal-lg">Text when cheap flights are available!
+                data-target=".bs-example-modal-lg">Text me when cheap flights are available!
         </button>
         <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
             <div class="modal-dialog modal-lg">

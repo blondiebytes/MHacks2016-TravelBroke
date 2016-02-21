@@ -1,10 +1,20 @@
-#for flights 
-import json
-from amadeus import Flights
-from Creds import FKEY, BTOK
 import requests
 import ast
+import collections
+import json
+
+from Creds import FKEY, BTOK, TTOK, TSID
+
+#for flights 
+from amadeus import Flights
+
+#for texting
+from twilio.rest import TwilioRestClient 
+
+#inits
 f_api = Flights(FKEY)
+t_api = TwilioRestClient(TSID, TTOK)
+
 '''
 #for twilio
 from airtng_flask.models import app_db, auth_token, account_sid, phone_number
@@ -36,10 +46,11 @@ for resp in results_json.get('results'):
 		#add to dictionary 5 travel results
 		flights[resp.get('price')] = [resp.get('destination'), resp.get('departure_date'), 
 		resp.get('return_date'), resp.get('airline'), 'airline_name']
-		print json.dumps(flights[resp.get('price')])
 		x += 1
 	else:
 		break
+
+flights = collections.OrderedDict(sorted(flights.items()))
 
 x = 0
 for trip in flights:
@@ -50,13 +61,6 @@ for trip in flights:
 		results_json = json.loads(response_data_json)
 		if results_json[0].get('value') == flights[trip][3]:
 			flights[trip][4] = results_json[0].get('label')
-		x += 1
-	else:
-		break
-
-x = 0
-for trip in flights:
-	if x < 3:
 		link = 'https%3A%2F%2Fwww.google.com%2Fflights%2F%23search%3Bf%3D'
 		dept = flights[trip][1]
 		ret = flights[trip][2]
@@ -65,5 +69,10 @@ for trip in flights:
 		org = 'CHI'
 		link += org + '%3Bt%3D' + dest + '%3Bd%3D' + dept + '%3Br%3D' + ret + '%3Ba%3D' + line
 		req_link = 'https://api-ssl.bitly.com/v3/shorten?access_token=' + BTOK + '&format=txt&longUrl=' + link
+		message = str(x+1) + ". You can travel to " + dest + " (" + dept + " to " + ret + ") for " + "$" + trip + " through " + flights[trip][4] + ". Book now at: " + requests.get(req_link).text
+		message = t_api.messages.create(to="+17733075720", from_="+15627418823",
+                                     body=message)
+		print message
 		x += 1
-		print requests.get(req_link).text
+	else:
+		break

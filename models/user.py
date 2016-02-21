@@ -2,9 +2,8 @@ class User(db.Model):
     __tablename__ = "users"
 
     id = db.Column(db.Integer, primary_key=True, nullable=False)
-   # first_name = db.Column(db.String, nullable=False)
-   # last_name = db.Column(db.String, nullable=False)
-    name = db.Column(db.String, nullable=False)
+   first_name = db.Column(db.String, nullable=False)
+   last_name = db.Column(db.String, nullable=False)
    # date_of_birth = db.Column(db.Integer, nullable=False)
     email = db.Column(db.String, nullable=False)
    # password = db.Column(db.String, nullable=False)
@@ -19,8 +18,9 @@ class User(db.Model):
   #  reservations = db.relationship("Reservation", back_populates="guest")
   #  listings = db.relationship("Listing", back_populates="listing")
 
-    def __init__(self, name, email, phone_number):
-        self.name = name;
+    def __init__(self, firstName, lastName, email, phone_number):
+        self.first_name = firstName;
+        self.last_name = lastName;
         self.email = email;
         self.phone_number = phone_number;
   #  def __init__(self, first_name, last_name, date_of_birth, email, password, phone_number, 

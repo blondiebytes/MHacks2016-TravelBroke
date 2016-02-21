@@ -110,6 +110,7 @@ def hotel_reply():
 				message += name + ", $" + price + ", " + phone + ". "
 		resp = twilio.twiml.Response()
 		resp.message(message)
+		t_api.messages.create(to="+17733075720", from_="+15627418823", body=message)
 		return message
 
 if __name__ == "__main__":

@@ -28,9 +28,9 @@ USER_DICT = dict()
 
 #gets flight results 
 results_json = f_api.inspiration_search(
-    origin = self.starting_location, #use self.guest if class
-    departure_date = self.departure_date, #format should be "2015-11-25--2015-11-30"
-    max_price = self.cost,
+    origin = 'CHI', #use self.guest if class
+    departure_date = '2016-03-01--2016-03-30', #format should be "2015-11-25--2015-11-30"
+    max_price = '100',
     duration = '3--10') #format should be "1--10"
 
 #add to dictionary 5 travel results
@@ -68,7 +68,7 @@ for trip in flights:
 		dept = flights[trip][1]
 		ret = flights[trip][2]
 		line = flights[trip][3]
-		org = self.starting_location #TODO don't hardcode
+		org = 'CHI' #TODO don't hardcode
 		#percent encoding of google link
 		link += org + '%3Bt%3D' + dest + '%3Bd%3D' + dept + '%3Br%3D' + ret + '%3Ba%3D' + line
 		#shorten google link using bit.ly

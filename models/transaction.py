@@ -6,7 +6,7 @@ class Transaction(db.Model):
     starting_location = db.Column(db.String, nullable=False)
     destination = db.Column(db.String, nullable=False)
     cost = db.Column(db.Integer, nullable=False)
-    departure_date = db.Column(db.Integer, nullable=False)
+    departure_date = db.Column(db.String, nullable=False)
 
     listing_id = db.Column(db.Integer, db.ForeignKey('users.id'))
     listing = db.relationship("User", back_populates="transactions")

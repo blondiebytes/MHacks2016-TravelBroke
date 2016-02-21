@@ -27,10 +27,10 @@ def hotel_reply():
 		message = "Hotels near " + dest + " for your trip: "
 		for x in range(0, 3):
 			name = results_json[x].get('property_name')
-			addr = results_json[x].get('address').get('line1')
+			#addr = results_json[x].get('address').get('line1')
 			price = results_json[x].get('total_price').get('amount')
 			phone = results_json[x].get('contacts')[0].get('detail') #this assumes phone number is always first element of contacts
-			message += name + ", " + addr + ", $" + price + ", " + phone + " "
+			message += name + ", " + ", $" + price + ", " + phone + ". "
 		print message
 		#resp = twilio.twiml.Response()
 		#resp.message(message)

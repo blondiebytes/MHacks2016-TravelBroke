@@ -19,7 +19,7 @@
                         <p>Chicago</p>
                     </div>
                     <div class="row image">
-                        <!--Image of Destination-->
+                        <!--Image of Destination -->
                         <img src="images/newyork.jpeg" height="100%" , width="100%">
                     </div>
                     <div class="row text-center">

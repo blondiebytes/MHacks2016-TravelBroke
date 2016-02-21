@@ -1,3 +1,7 @@
+#mb50 {
+    margin-bottom: 50px;
+}
+
 #bg {
     background: url('/mhacks2016/images/background4.jpeg');
     min-height: 100vh;
@@ -7,8 +11,11 @@
 #pd50 {
     padding-bottom: 50px;
 }
+.mt-50{
+    margin-top: 50px;
+}
 
-#submit-button {
+.submit-button {
     color:white;
     background-color:#033038;
     border-radius: 0px;
@@ -26,7 +33,7 @@
 
 }
 
-#submit-button:hover {
+.submit-button:hover {
     background-color:#1E5B67;
 }
 

@@ -13,12 +13,15 @@
     <title>TRAVEL-BROKE</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/assets.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'  type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+
+    <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -32,6 +35,9 @@
         <div class = "text-lg-center" id="main-title">
             <h1>Travel Broke</h1>
         </div>
+    </section>
+    <section>
+
     </section>
 
     <section>
@@ -60,8 +66,9 @@
                             </div>
                         </div>
                         <div class="row text-center select-button">
-                            <!--Select choice button-->
-                            <button type="submit" class="btn btn-default" id="submit-button">Choose Me!</button>
+                            <form action="http://localhost:8888/mhacks2016/completion.php">
+                                <button type="submit" class="btn btn-default submit-button">Choose Me!</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -89,7 +96,9 @@
                         </div>
                         <div class="row text-center select-button">
                             <!--Select choice button-->
-                            <button type="submit" class="btn btn-default" id="submit-button">Choose Me!</button>
+                            <form action="http://localhost:8888/mhacks2016/completion.php">
+                                <button type="submit" class="btn btn-default submit-button">Choose Me!</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -117,7 +126,9 @@
                         </div>
                         <div class="row text-center select-button">
                             <!--Select choice button-->
-                            <button type="submit" class="btn btn-default" id="submit-button">Choose Me!</button>
+                            <form action="http://localhost:8888/mhacks2016/completion.php">
+                                <button type="submit" class="btn btn-default submit-button">Choose Me!</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -125,10 +136,49 @@
         </div>
     </section>
 
-    <section>
+    <section> <!-- Large modal -->
         <div class = "text-center select-button" id="main-title">
-            <button type="submit" class="btn btn-default" id="submit-button">Text when cheap flights are available!</button>
+            <button type="button" class="btn btn-primary submit-button" data-toggle="modal" data-target=".bs-example-modal-lg">Text when cheap flights are available!</button>
+            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+
+                        <form action="">
+                            <div class="page-header"><h1>FILL OUT YOUR INFO</h1></div>
+                            <div class="row">
+                                <div class="col-lg-4"></div>
+                                <div class="input-group input-group-lg">
+                                    <input type="text" class="form-control" placeholder="First Name" aria-describedby="sizing-addon1">
+                                </div>
+                                <div class="col-lg-4"></div>
+                                <div class="input-group input-group-lg">
+                                    <input type="text" class="form-control" placeholder="Last Name" aria-describedby="sizing-addon1">
+                                </div>
+                                <div class="col-lg-4"></div>
+                                <div class="input-group input-group-lg">
+                                    <input type="text" class="form-control" placeholder="Email" aria-describedby="sizing-addon1">
+                                </div>
+                                <div class="col-lg-4"></div>
+                                <div class="input-group input-group-lg">
+                                    <input type="phone" class="form-control" name="phone" placeholder="(800)-867-5309" aria-describedby="sizing-addon1">
+                                </div>
+                                <div class="row mt-50" id="mb-50">
+                                <div class="input-group input-group-btn">
+                                    <button type="submit" class="btn btn-default submit-button" style="margin-bottom: 20px">Book It!</button>
+                                </div>
+                                </div>
+
+
+
+                            </div>
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </section>
 
 </div>

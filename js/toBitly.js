@@ -1,3 +1,4 @@
+
 /**
  * Created by kathrynhodge on 2/20/16.
  */
@@ -6,17 +7,13 @@
 $(document).ready(function() {
     $(".submit-button").click(function(e) {
         e.preventDefault();
-        var start = $("#start").val();
-        var budget = $("#budget").val();
-        var date = $("#date").val();
+        var chosen= $("#selection").val();
 
         /** jQuery.post( url [, data ] [, success ] [, dataType ] )...*/
         $.post("http://localhost:8888/mhacks2016/travel_broke.db", {
-            starting_location: start,
-            cost: budget,
-            departure_date: date,
+            selection:chosen,
         }, function() {
-            location.href = "http://localhost:8888/mhacks2016/pickTravel.php";
+            location.href = "toBitlyLink";
         })
 
     })

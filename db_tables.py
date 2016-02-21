@@ -3,6 +3,10 @@
 import sqlite3 as lite
 import sys
 
+from flask import Flask;
+app = Flask(_Travel-Broke_)
+
+
 con = lite.connect('travel_broke.db')
 
 with con:

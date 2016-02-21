@@ -1,3 +1,4 @@
+
 #mb50 {
     margin-bottom: 50px;
 }
@@ -8,8 +9,8 @@
     background-size: cover;
 }
 
-#pd50 {
-    padding-bottom: 50px;
+.pu50 {
+    padding-top: 50px;
 }
 .mt-50{
     margin-top: 50px;
@@ -26,7 +27,6 @@
     text-transform: uppercase;
     padding: 10px 20px;
     outline:none;
-    boarder:none !important;
     transition:0.2s ease all;
     -webkit-transition:0.2s ease all;
     -moz-transition:0.2s ease all;
@@ -48,7 +48,7 @@
 
 
 
-#main-title h1 {
+.main-title h1 {
     font-size:70px;
     font-family: 'Indie Flower', cursive;
     text-align: center;
@@ -62,7 +62,7 @@
     font-family: "Open Sans";
     font-weight: 400;
 }
-.containerA{
+#main-page-container{
     width:80%;
     max-width: 800px;
     margin:auto;
@@ -205,4 +205,8 @@
 .remove-margin {
     padding:0;
     margin:0;
+}
+
+.info {
+
 }

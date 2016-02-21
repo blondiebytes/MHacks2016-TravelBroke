@@ -4,7 +4,7 @@ class Transaction(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     starting_location = db.Column(db.String, nullable=False)
-    destination = db.Column(db.String, nullable=False)
+    destination = db.Column(db.Integer, nullable=False)
     cost = db.Column(db.Integer, nullable=False)
     departure_date = db.Column(db.String, nullable=False)
 

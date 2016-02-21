@@ -42,7 +42,7 @@ include "layouts/base.php";
                         </div>
                     </div>
                     <div class="row text-center select-button">
-                        <form action="\endSession" method="GET">
+                        <form action="\endSession" method="POST">
                             <button type="submit" class="btn btn-default submit-button">Choose Me!</button>
                         </form>
                     </div>
@@ -72,7 +72,7 @@ include "layouts/base.php";
                     </div>
                     <div class="row text-center select-button">
                         <!--Select choice button-->
-                        <form action="\endSession" method="GET">
+                        <form action="\endSession" method="POST">
                             <button type="submit" class="btn btn-default submit-button">Choose Me!</button>
                         </form>
                     </div>
@@ -102,7 +102,7 @@ include "layouts/base.php";
                     </div>
                     <div class="row text-center select-button">
                         <!--Select choice button-->
-                        <form action="\endSession" method="GET">
+                        <form action="\endSession" method="POST">
                             <button type="submit" class="btn btn-default submit-button">Choose Me!</button>
                         </form>
                     </div>

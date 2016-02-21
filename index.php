@@ -45,5 +45,5 @@
 </body>
 <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script src="js/javascript.js"></script>
-<scripe src="js/submit.js"></scripe></script>
+<script src="js/submit.js"></script>
 </html>

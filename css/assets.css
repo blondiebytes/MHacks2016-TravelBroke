@@ -26,6 +26,7 @@
     text-transform: uppercase;
     padding: 10px 20px;
     outline:none;
+    boarder:none !important;
     transition:0.2s ease all;
     -webkit-transition:0.2s ease all;
     -moz-transition:0.2s ease all;

@@ -6,30 +6,10 @@
  * Time: 3:06 AM
  * php-intro.com
  */
+include "layouts/base.php";
 ?>
-<!doctype html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>TRAVEL-BROKE</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/assets.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'  type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
-    <script src="js/bootstrap.min.js"></script>
-    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
-</head>
 
 <body>
-<script>
-    var myDataRef = new Firebase('https://incandescent-fire-1314.firebaseio.com/');
-
-</script>
-
 <div class="container-fluid" id="bg">
     <section id="pd50">
 

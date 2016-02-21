@@ -17,19 +17,3 @@ with con:
 
     c.close()
 
-
-@app.route('/startSession', methods=['POST'])
-def startSession();
-    if request.method == 'POST':
-        giveInfoToServer(request.form.start, request.form.budget, request.form.end);
-    flask.redirect("http://localhost:8888/mhacks2016/pickTravel.php", code=302);
-
-def giveInfoToServer(param1, param2, param3):
-
-@app.route('/endSession', methods=['POST'])
-def outOfSession():
-    if request.method == 'POST':
-        getThelink(form.id);
-
-def getTheLink(param1):
-

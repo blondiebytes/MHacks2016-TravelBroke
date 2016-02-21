@@ -1,12 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: kathrynhodge
- * Date: 2/20/16
- * Time: 3:06 AM
- * php-intro.com
- */
-?>
+
 <!doctype html>
 
 

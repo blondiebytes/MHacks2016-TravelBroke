@@ -1,12 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: kathrynhodge
- * Date: 2/20/16
- * Time: 10:55 AM
- */
-include "layouts/base.php";
-?>
+<?php include('layouts/base.php') ?>
 
 <body class="container-fluid" id="bg">
 
@@ -42,7 +34,7 @@ include "layouts/base.php";
                         </div>
                     </div>
                     <div class="row text-center select-button">
-                        <form action="\endSession" method="POST">
+                        <form>
                             <button type="submit" class="btn btn-default submit-button">Choose Me!</button>
                         </form>
                     </div>
@@ -72,7 +64,7 @@ include "layouts/base.php";
                     </div>
                     <div class="row text-center select-button">
                         <!--Select choice button-->
-                        <form action="\endSession" method="POST">
+                        <form>
                             <button type="submit" class="btn btn-default submit-button">Choose Me!</button>
                         </form>
                     </div>
@@ -102,7 +94,7 @@ include "layouts/base.php";
                     </div>
                     <div class="row text-center select-button">
                         <!--Select choice button-->
-                        <form action="\endSession" method="POST">
+                        <form>
                             <button type="submit" class="btn btn-default submit-button">Choose Me!</button>
                         </form>
                     </div>

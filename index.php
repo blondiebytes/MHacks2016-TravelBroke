@@ -1,5 +1,5 @@
 
-import "layouts/base.php";
+<?php include('layouts/base.php') ?>
 
 <body class="container-fluid" id="bg">
     <section class="pu50">
@@ -33,7 +33,7 @@ import "layouts/base.php";
                 </form>
                 <div class="form-group row">
                     <div class="col-sm-12 text-center padding-top-for-buttom">
-                        <form action="\startSession" method="POST">
+                        <form>
                             <button type="submit" class="btn btn-default submit-button">Let's go on an adventure!
                             </button>
                         </form>
@@ -45,4 +45,5 @@ import "layouts/base.php";
 </body>
 <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script src="js/javascript.js"></script>
+<scripe src="js/submit.js"></scripe></script>
 </html>

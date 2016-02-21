@@ -42,7 +42,7 @@ include "layouts/base.php";
                         </div>
                     </div>
                     <div class="row text-center select-button">
-                        <form action="http://localhost:8888/mhacks2016/completion.php">
+                        <form action="\endSession" method="GET">
                             <button type="submit" class="btn btn-default submit-button">Choose Me!</button>
                         </form>
                     </div>
@@ -72,7 +72,7 @@ include "layouts/base.php";
                     </div>
                     <div class="row text-center select-button">
                         <!--Select choice button-->
-                        <form action="http://localhost:8888/mhacks2016/completion.php">
+                        <form action="\endSession" method="GET">
                             <button type="submit" class="btn btn-default submit-button">Choose Me!</button>
                         </form>
                     </div>
@@ -102,7 +102,7 @@ include "layouts/base.php";
                     </div>
                     <div class="row text-center select-button">
                         <!--Select choice button-->
-                        <form action="http://localhost:8888/mhacks2016/completion.php">
+                        <form action="\endSession" method="GET">
                             <button type="submit" class="btn btn-default submit-button">Choose Me!</button>
                         </form>
                     </div>

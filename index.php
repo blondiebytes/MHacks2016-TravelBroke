@@ -33,7 +33,7 @@ import "layouts/base.php";
                 </form>
                 <div class="form-group row">
                     <div class="col-sm-12 text-center padding-top-for-buttom">
-                        <form action="http://localhost:8888/mhacks2016/pickTravel.php">
+                        <form action="\startSession" method="POST">
                             <button type="submit" class="btn btn-default submit-button">Let's go on an adventure!
                             </button>
                         </form>

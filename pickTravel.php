@@ -16,7 +16,7 @@
                 <div class="row place-row">
                     <div class="row destination">
                         <!-- Name of Destination-->
-                        <p>Chicago</p>
+                        <p>New Orleans</p>
                     </div>
                     <div class="row image">
                         <!--Image of Destination -->
@@ -24,17 +24,17 @@
                     </div>
                     <div class="row text-center">
                         <div class="col-xs-12 col-md-6 destination">
-                            <p>March 14th</p>
+                            <p>March 1st</p>
                             <p>Sprint</p>
 
                         </div>
                         <div class="col-xs-12 col-md-6 destination">
-                            <p>March 18th</p>
-                            <p>$796</p>
+                            <p>March 9th</p>
+                            <p>$71.20</p>
                         </div>
                     </div>
                     <div class="row text-center select-button">
-                        <form>
+                        <form method="post" action="http://bit.ly/1VvxnGf">
                             <button type="submit" class="btn btn-default submit-button">Choose Me!</button>
                         </form>
                     </div>
@@ -45,7 +45,7 @@
                 <div class="row place-row">
                     <div class="row destination">
                         <!-- Name of Destination-->
-                        <p>New York City</p>
+                        <p>Houston</p>
                     </div>
                     <div class="row image">
                         <!--Image of Destination-->
@@ -53,18 +53,18 @@
                     </div>
                     <div class="row text-center">
                         <div class="col-xs-12 col-md-6 destination">
-                            <p>March 3rd</p>
+                            <p>March 2nd</p>
                             <p>United</p>
 
                         </div>
                         <div class="col-xs-12 col-md-6 destination">
-                            <p>March 5th</p>
-                            <p>$730</p>
+                            <p>March 8th</p>
+                            <p>$153.00</p>
                         </div>
                     </div>
                     <div class="row text-center select-button">
                         <!--Select choice button-->
-                        <form>
+                        <form method=post" action="http://bit.ly/1Qssu2x">
                             <button type="submit" class="btn btn-default submit-button">Choose Me!</button>
                         </form>
                     </div>
@@ -75,7 +75,7 @@
                 <div class="row place-row ">
                     <div class="row destination">
                         <!-- Name of Destination-->
-                        <p>Austin</p>
+                        <p>Boston</p>
                     </div>
                     <div class="row image">
                         <!--Image of Destination-->
@@ -83,18 +83,18 @@
                     </div>
                     <div class="row text-center">
                         <div class="col-xs-12 col-md-6 destination">
-                            <p>March 26th</p>
-                            <p>Delta</p>
+                            <p>March 9th</p>
+                            <p>JetBlue</p>
 
                         </div>
                         <div class="col-xs-12 col-md-6 destination">
-                            <p>March 30th</p>
-                            <p>$600</p>
+                            <p>March 19th</p>
+                            <p>$79.50</p>
                         </div>
                     </div>
                     <div class="row text-center select-button">
                         <!--Select choice button-->
-                        <form>
+                        <form method="post" action=http://bit.ly/1Q2pmot">
                             <button type="submit" class="btn btn-default submit-button">Choose Me!</button>
                         </form>
                     </div>

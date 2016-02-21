@@ -7,13 +7,14 @@ $(document).ready(function() {
     $(".submit-button").click(function(e) {
         console.log("lol ");
         e.preventDefault();
+        location.href = "http://localhost:8888/mhacks2016/pickTravel.php"
         var start = $("#start").val();
         var budget = $("#budget").val();
         var date = $("#date").val();
-        var realData = "2016-"+date+"-1--2016-"+date+"28";
+        ;
 
-        /** jQuery.post( url [, data ] [, success ] [, dataType ] )...*/
-        $.post("herokuapp./post?", {
+        /** jQuery.post( url [, data ] [, success ] [, dataType ] )...
+        $.post("#", {
             starting_location: start,
             cost: budget,
             departure_date: realData,
@@ -21,6 +22,6 @@ $(document).ready(function() {
             console.log(data, status);
             location.href = "http://localhost:8888/mhacks2016/pickTravel.php";
         })
-
+            */
     })
 })

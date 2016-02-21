@@ -7,7 +7,8 @@ $(document).ready(function() {
     $(".submit-button").click(function(e) {
         console.log("lol ");
         e.preventDefault();
-        location.href = "http://localhost:8888/mhacks2016/pickTravel.php"
+        location.href = "http://localhost:8888/mhacks2016/pickTravel.php";
+        console.log("okay");
         var start = $("#start").val();
         var budget = $("#budget").val();
         var date = $("#date").val();

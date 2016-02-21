@@ -20,7 +20,7 @@ This app works to find the most affordable flights and hotel rooms for the world
 
 #Contributors:
 
--Kathryn Hodge: front-end web dev
+-Kathryn Hodge: overall design, front-end web dev
 
 -Victoria Chavez: back-end Twilio and Amadeus integration
 

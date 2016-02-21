@@ -70,7 +70,7 @@ for trip in flights:
 		message = str(x+1) + ". You can travel to " + dest + " (" + dept + " to " + ret + ") for " + "$" + trip + " through " + flights[trip][4] + ". Book now at: " + requests.get(req_link).text
 		#send message to user from twilio number 
 		#TODO: dont hardcode number
-		t_api.messages.create(to="+17733075720", from_="+15627418823", body=message)
+		#t_api.messages.create(to="+17733075720", from_="+15627418823", body=message)
 		#print message for testing purposes
 		print message
 		x += 1

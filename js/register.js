@@ -1,5 +1,5 @@
 /**
- * Created by kathrynhodge on 2/21/16.
+ * Created by kathrynhodge on 2/20/16.
  */
 
 $(function() {
@@ -9,7 +9,7 @@ $(function() {
 
         /** jQuery.post( url [, data ] [, success ] [, dataType ] )...*/
         $.post("#", {
-            num:num;
+            num : num
         }, function() {
             location.href = "linkFromMethod";
         })

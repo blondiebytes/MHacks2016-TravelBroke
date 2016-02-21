@@ -11,7 +11,7 @@ $(function() {
         var date = $("#date").val();
 
         /** jQuery.post( url [, data ] [, success ] [, dataType ] )...*/
-        $.post("http://localhost:8888/mhacks2016/pickTravel.php", {
+        $.post("http://localhost:8888/mhacks2016/models/user.py", {
             start: start,
             budget: budget,
             date: date,

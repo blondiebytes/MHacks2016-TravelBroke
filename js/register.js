@@ -5,13 +5,17 @@
 $(function() {
     $(".select-button").click(function(e) {
         e.preventDefault();
-        var num = $("#id").val();
+        var firstName = $("#firstName").val();
+        var lastName = $("#lastName").val();
+        var email = $("#email").val();
+        var phone = $("#phone").val();
+
 
         /** jQuery.post( url [, data ] [, success ] [, dataType ] )...*/
-        $.post("#", {
+        $.post("http://localhost:8888/mhacks2016/models/user.py", {
             num : num
         }, function() {
-            location.href = "linkFromMethod";
+            location.href = "go back to pickTravel";
         })
 
     })

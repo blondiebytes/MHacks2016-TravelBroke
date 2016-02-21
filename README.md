@@ -12,7 +12,7 @@ Travel Broke is a web application that helps you find a spontaneous weekend geta
 
 Contributors:
 
--Kathryn Hodge: front-end web dev & some database work
+-Kathryn Hodge: front-end web dev
 
 -Victoria Chavez:
 

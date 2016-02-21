@@ -1,1 +1,1 @@
-web: python scripts/run.py
+web: python run.py
